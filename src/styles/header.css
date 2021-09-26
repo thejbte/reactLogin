@@ -1,0 +1,80 @@
+/* bg */
+.header {
+    width: 100%;
+    height: 119px;
+  }
+  .header-container {
+    position: absolute;
+    width: 100%;
+    height: 119px;
+    left: 0px;
+    top: 0px;
+  
+    /* blue_dark */
+    background: #101b54;
+    
+  }
+  /* By Julian Bustamante N */
+  .header-text {
+    position: absolute;
+    width: 511px;
+    height: 56px;
+    left: 40%;
+    top: 43px;
+  
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+  
+    color: #ffffff;
+  }
+  .header-img {
+    position: absolute; /*absoluto al contenedor  y no relativo a patrtiendo de mi pos*/
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+    left: 0%;
+  }
+  .header-logo {
+    /*border-bottom: 1px rgb(17, 17, 17) solid;*/
+    position: absolute;
+    width: 200px;
+    height: 119px;
+    left: 0px;
+    top: 0px;
+  
+    /* white */
+    background: #ffffff;
+  }
+  
+  /* bg */
+  .name-prj {
+    position: absolute;
+    width: 100%;
+    height: 148px;
+    left: 0px;
+    top: 119px;
+  
+    /* gray_ligth */
+    background: #ededed;
+  
+    /* Name of project-MINTIC */
+  }
+  .name-prj-text {
+    position: absolute;
+    width: 519px;
+    height: 56px;
+    left: 40%;
+    top: 30%;
+  
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+  
+    color: #000000;
+  }
