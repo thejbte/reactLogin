@@ -3,6 +3,8 @@ import '../styles/login.css'
 
 function Login() {
 
+    /*============================================================================= */
+
     function handleLogin(e) {
         e.preventDefault();  // deshabilita hacer el action del form
         console.log('You clicked submit.');
@@ -55,6 +57,13 @@ function Login() {
         alert("User: "+ email.value +'\nPassword: ' + password.value);
       }
 
+      /*============================================================================= */
+      function handleSingUp(e){
+
+        alert("singUp");
+      }
+      /*============================================================================= */
+
     return (
         <div className = "container">
         <form className="login-form" action="home.html" method="POST" name="form" onSubmit={handleLogin}>
@@ -66,7 +75,7 @@ function Login() {
             <input type="password" name="password" placeholder="password"/>
             <div id="passwordOnError">Please enter your password</div><br/>
             <button type="submit" class="btn btn-primary">Login</button>
-        
+            <button type="button" class="btn btn-secondary" onClick = {handleSingUp} name="btn_singup">Singup</button>
         
         </form>
 

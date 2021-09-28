@@ -1,0 +1,30 @@
+.reg-email , .reg-password, .reg-password-rpt{
+    width: 60%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: flex;
+    flex-direction: row;
+    border: none;
+    background: #f1f1f1;
+}
+.reg-email:focus, .reg-password:focus {
+    background-color: #ddd;
+    outline: none; /*contorno , liea azul del borde*/
+  }
+
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+
+  /* Add padding to container elements */
+.reg-container {
+    padding: 16px; /*separa del borde letra-todo*/
+  }
+
+.reg-btn-singup, .reg-btn-cancel {
+  margin: 15px 0 15px 0;
+	height: 45px;
+	width: 30%;
+}
